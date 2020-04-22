@@ -75,4 +75,4 @@ Quatre pages :
 
 # Le résultat
 
-La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr/index.html).
+La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr).
