@@ -58,13 +58,38 @@
         
     </header>
 
-                                        <!-- PRESENTATION -->
-
+    <section class="headerDeux">
     
-
-                                        <!-- PROJETS -->
-
+        <div class="carteHeader">
+            <div class="carteImage">
+                <img src="images/responsive.png" alt="Responsive Design" data-aos="fade-right" data-aos-duration="1500">
+            </div>
+            <div class="carteTexte">
+                <h3>Responsive Web Design</h3>
+                <p>Pour des sites qui s'adaptent à toutes les tailles d'écrans : smartphone, tablette, pc, télé, etc...</p>
+            </div>
+        </div>
+        <div class="carteHeader">
+            <div class="carteImage">
+                <img src="images/manette.png" alt="Manette" data-aos="fade-up" data-aos-duration="1500">
+            </div>
+            <div class="carteTexte">
+                <h3>Jeux Vidéo</h3>
+                <p>Des petits jeux créés avec JavaScript et autres...</p>
+            </div>
+        </div>
+        <div class="carteHeader">
+            <div class="carteImage">
+                <img src="images/journal.png" alt="Journal" data-aos="fade-left" data-aos-duration="1500">
+            </div>
+            <div class="carteTexte">
+                <h3>Blog</h3>
+                <p>Pour parler d'un peu de tout : cinéma, musique, technologies, jeux vidéo, etc...</p>
+            </div>
+        </div>
     
+    </section>
+
 
     <?php include("footer.php"); ?>
 

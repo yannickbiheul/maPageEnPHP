@@ -28,6 +28,8 @@ html, body {
     --gris3: #718093;
     --noir1: #353b48;
     --noir2: #2f3640;
+    --bleu-nuit1: #333845;
+    --bleu-nuit2: #2a3357;
 }
 
 /* HEADER */
@@ -373,6 +375,52 @@ nav a:hover {
     width: 45px;
     margin-left: 3px;
     margin-right: 3px;
+}
+
+/* HEADER 2 */
+
+.headerDeux {
+    min-height: 100vh;
+    background: linear-gradient(-225deg, var(--bleu-nuit1) 30%, var(--bleu-nuit2) 80%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.carteHeader {
+    /* border: 1px solid #fff; */
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.carteImage {
+    height: 50%;
+}
+
+.carteImage img {
+    width: 250px;
+}
+
+.carteTexte {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.carteTexte h3 {
+    margin-top: 20px;
 }
 
 /* PRESENTATION */

@@ -72,6 +72,7 @@ Quatre pages :
 * **22 Avril 2020**
     * Changement de logo.
     * Refonte du site, passage en PHP.
+    * Ajout de contenu dans la section Accueil.
 
 # Le résultat
 
