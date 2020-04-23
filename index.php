@@ -37,10 +37,10 @@
         <div class="header2">
             <div class="nom">
                 <div class="titre">
-                    <h1 class=" text-titre animated bounceInLeft delay-1s">Yannick Biheul</h1>
+                    <h1 class=" text-titre animated bounceInLeft delay-0.5s">Yannick Biheul</h1>
                 </div>
                 <div class="texte">
-                    <h3 class="animated zoomInUp">Reconversion professionnelle dans le développement web.</h3>
+                    <h3 class="animated zoomInUp delay-1s">Reconversion professionnelle dans le développement web.</h3>
                     <div class="liens">
                         <a href="#" target="_blank">CV</a>
                         <a href="https://github.com/yannickbiheul" target="_blank">GitHub</a>

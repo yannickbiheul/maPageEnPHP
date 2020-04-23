@@ -74,6 +74,9 @@ Quatre pages :
     * Refonte du site, passage en PHP.
     * Ajout de contenu dans la section Accueil.
 
+* **23 Avril 2020**
+    * Initialisation de la section Contact.
+
 # Le résultat
 
 La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr).

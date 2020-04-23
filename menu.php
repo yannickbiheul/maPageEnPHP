@@ -11,7 +11,7 @@
     <a href="index.php">Accueil</a>
     <a href="presentation.php">Présentation</a>
     <a href="projets.php">Projets</a>
-    <a href="#">Contact</a>
+    <a href="contact.php">Contact</a>
 </nav>
 
 <!-- MENU DE NAVIGATION -->
@@ -24,7 +24,7 @@
         <a href="index.php">Accueil</a>
         <a href="presentation.php">Présentation</a>
         <a href="projets.php">Projets</a>
-        <a href="#">Contact</a>
+        <a href="contact.php">Contact</a>
     </div>
     <div class="menu3">
         <div class="reseaux-titre">

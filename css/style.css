@@ -835,6 +835,72 @@ footer p {
 }
 
 
+/* CONTACT */
+
+#contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("../images/bubulles8.jpg");
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+
+.container-contact {
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.titre-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    
+}
+
+.titre-contact h2 {
+    color: var(--jaune2);
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* border: 1px solid #fff; */
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.formulaire1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 1290px) {
@@ -934,5 +1000,9 @@ footer p {
 
     .projet-texte p {
         text-align: center;
+    }
+
+    .formulaire {
+        width: 100%;
     }
 }
