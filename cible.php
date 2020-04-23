@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -25,28 +24,31 @@
 
 <body>
 
-    <section id="contact">
+    <section id="cible">
         <?php include('menu.php'); ?>
 
-        <div class="container-contact">
-
+        <div class="container-cible">
         
-            <div class="titre-contact">
-                <h2 class="animated bounceInRight delay-0.2s">CONTACT</h2>
+            <div class="titre-cible">
+                <h2 class="animated bounceInRight delay-0.2s">Envoyé !</h2>
             </div>
 
-            <div class="formulaire">
-                <div class="formulaire1">
-                    <h3>Vous pouvez me contacter ici :<h3>
-                </div>
-                <div class="formulaire2">
-                    <form action="cible.php" method="POST">
-                        <p><input type="text" name="prenom" placeholder="Prénom" autofocus></p>
-                        <p><input type="email" name="email" placeholder="E-mail"></p>
-                        <p><textarea name="message" rows="5" cols="33" placeholder="Message"></textarea></p>
-                        <p><input type="submit" class="submit"></p>
-                    </form>
-                </div>
+            <div class="result-cible animated bounceInLeft delay-0.2s">
+            <?php
+                if(isset($_POST['prenom']) && isset($_POST['email']) && isset($_POST['message'])) {
+
+                    $prenom = $_POST['prenom'];
+                    $header="MIME-Version: 1.0\r\n";
+                    $header.='From:"Yannickbiheul.fr"<yannickbiheul@gmail.com>'."\n";
+                    $header.='Content-Type:text/html; charset="uft-8"'."\n";
+                    $header.='Content-Transfer-Encoding: 8bit';
+
+                    $message= 'Un message du formulaire ! <br>' .$_POST['message'] . '<br>Message envoyé par ' . $prenom . '. <br>Son e-mail : ' . $_POST['email'];
+
+                    mail("yannickbiheul@gmail.com", "Essai Formulaire", $message, $header);
+                }
+            ?>
+                <a href="index.php">OK</a>
             </div>
         </div>
         <?php include('footer.php'); ?>

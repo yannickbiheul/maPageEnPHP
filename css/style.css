@@ -857,7 +857,7 @@ footer p {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .titre-contact {
@@ -885,6 +885,7 @@ footer p {
     /* border: 1px solid #fff; */
     background-color: #fff;
     border-radius: 20px;
+    padding: 20px;
 }
 
 .formulaire1 {
@@ -897,6 +898,109 @@ footer p {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000;
+    outline: none;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000;
+    outline: none;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.submit {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: var(--bleu4);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+/* CIBLE */
+
+#cible {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("../images/bubulles8.jpg");
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+
+.container-cible {
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.titre-cible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    
+}
+
+.titre-cible h2 {
+    color: var(--jaune2);
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.result-cible {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid #fff; */
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.result-cible a {
+    text-align: center;
+    background-color: var(--bleu4);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #000;
+    text-decoration: none;
+}
+
+.merci {
+    color: var(--vert2);
+    font-family: 'Bangers', cursive;
+    font-size: 1.5em;
+    letter-spacing: 2px;
 }
 
 
@@ -1002,7 +1106,11 @@ footer p {
         text-align: center;
     }
 
+    .container-contact {
+        margin-top: 10px;
+    }
+
     .formulaire {
-        width: 100%;
+        width: 90%;
     }
 }

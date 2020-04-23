@@ -76,6 +76,7 @@ Quatre pages :
 
 * **23 Avril 2020**
     * Initialisation de la section Contact.
+    * Premier essai formulaire.
 
 # Le résultat
 
