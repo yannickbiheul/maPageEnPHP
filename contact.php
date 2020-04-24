@@ -25,13 +25,13 @@
 
 <style>
 #reseaux {
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-min-height: 100vh;
-background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 80%);
-overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 80%);
+    overflow: hidden;
 }
 
 #contact {
@@ -79,12 +79,10 @@ overflow: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 100%;
     height: 60%;
     /* border: 1px solid #fff; */
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .formulaire1 {
@@ -100,8 +98,8 @@ overflow: hidden;
 }
 
 input {
-    width: 250px;
-    height: 30px;
+    width: 100%;
+    height: 40px;
     border-radius: 5px;
     box-shadow: 1px 1px 4px #000;
     outline: none;
@@ -119,16 +117,22 @@ textarea {
 }
 
 .submit {
-    width: 200px;
-    height: 30px;
+    width: 100%;
+    height: 40px;
     text-align: center;
-    background-color: var(--bleu4);
-    color: #fff;
+    background-color: var(--jaune2);
+    color: #000;
     border-radius: 5px;
     box-shadow: 1px 1px 4px #000;
-    margin-left: 25px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+
+#reseaux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact2-titre h3 {
@@ -173,14 +177,11 @@ textarea {
             </div>
 
             <div class="formulaire">
-                <div class="formulaire1">
-                    <h3>Vous pouvez me contacter ici :<h3>
-                </div>
                 <div class="formulaire2">
                     <form action="cible.php" method="POST">
-                        <p><input type="text" name="prenom" placeholder="Prénom" autofocus></p>
-                        <p><input type="email" name="email" placeholder="E-mail"></p>
-                        <p><textarea name="message" rows="5" cols="33" placeholder="Message"></textarea></p>
+                        <p><input type="text" name="prenom" placeholder="Prénom" autofocus required></p>
+                        <p><input type="email" name="email" placeholder="E-mail" required></p>
+                        <p><textarea name="message" rows="5" cols="33" placeholder="Message" required></textarea></p>
                         <p><input type="submit" class="submit"></p>
                     </form>
                 </div>
@@ -196,16 +197,16 @@ textarea {
             <h3>Réseaux sociaux</h3>
         </div>
         <div class="contact2-logos">
-            <div data-aos="flip-left">
+            <div data-aos="fade-right" data-aos-duration="2000">
                 <a href="https://www.facebook.com/yannickbiheul" title="Facebook" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
             </div>
-            <div data-aos="flip-left">
+            <div data-aos="fade-right" data-aos-duration="1500">
                 <a href="https://twitter.com/LeBok29000" title="Twitter" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
             </div>
-            <div data-aos="flip-left">
+            <div data-aos="fade-right" data-aos-duration="1000">
                 <a href="https://www.instagram.com/yannick_biheul/?hl=fr" title="Instagram" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
             </div>
-            <div data-aos="flip-left">
+            <div data-aos="fade-right" data-aos-duration="500">
                 <a href="https://www.linkedin.com/in/yannick-biheul-4451a917b/" title="Linkedin" target="_blank"><img src="images/linkedin.png" alt="Linkedin"></a>
             </div>
         </div>
