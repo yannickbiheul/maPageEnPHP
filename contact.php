@@ -23,6 +23,143 @@
     <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152-precomposed.png" />
 </head>
 
+<style>
+#reseaux {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+min-height: 100vh;
+background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 80%);
+overflow: hidden;
+}
+
+#contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/bubulles8.jpg");
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+
+.container-contact {
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.titre-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    height: 60px;
+}
+
+.titre-contact h2 {
+    color: var(--jaune2);
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    /* border: 1px solid #fff; */
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.formulaire1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000;
+    outline: none;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000;
+    outline: none;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.submit {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: var(--bleu4);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.contact2-titre h3 {
+    color: var(--jaune2);
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+.contact2-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact2-logos img {
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1290px) {
+    .container-contact {
+        padding: 0;
+        margin-top: 0;
+    }
+    .formulaire {
+        width: 250px;
+    }
+}
+</style>
+
 <body>
 
     <section id="contact">
@@ -50,6 +187,28 @@
             </div>
         </div>
         <?php include('footer.php'); ?>
+    
+    </section>
+
+    <section id="reseaux">
+
+        <div class="contact2-titre">
+            <h3>Réseaux sociaux</h3>
+        </div>
+        <div class="contact2-logos">
+            <div data-aos="flip-left">
+                <a href="https://www.facebook.com/yannickbiheul" title="Facebook" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            </div>
+            <div data-aos="flip-left">
+                <a href="https://twitter.com/LeBok29000" title="Twitter" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+            </div>
+            <div data-aos="flip-left">
+                <a href="https://www.instagram.com/yannick_biheul/?hl=fr" title="Instagram" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+            <div data-aos="flip-left">
+                <a href="https://www.linkedin.com/in/yannick-biheul-4451a917b/" title="Linkedin" target="_blank"><img src="images/linkedin.png" alt="Linkedin"></a>
+            </div>
+        </div>
     
     </section>
 

@@ -37,10 +37,10 @@
         <div class="header2">
             <div class="nom">
                 <div class="titre">
-                    <h1 class=" text-titre animated bounceInLeft delay-0.5s">Yannick Biheul</h1>
+                    <h1 class=" text-titre animated bounceInLeft delay-0.2s">Yannick Biheul</h1>
                 </div>
                 <div class="texte">
-                    <h3 class="animated zoomInUp delay-1s">Reconversion professionnelle dans le développement web.</h3>
+                    <h3 class="animated zoomInUp delay-0.4s">Reconversion professionnelle dans le développement web.</h3>
                     <div class="liens">
                         <a href="#" target="_blank">CV</a>
                         <a href="https://github.com/yannickbiheul" target="_blank">GitHub</a>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="png">
-                <img id="png" src="images/web5.png" data-aos="fade-left" data-aos-duration="1500" class="animated bounce delay-2s">
+                <img id="png" src="images/web5.png" data-aos="fade-left" data-aos-duration="1500" class="animated bounce delay-0.8s">
             </div>
         </div>
 
@@ -62,29 +62,29 @@
     
         <div class="carteHeader">
             <div class="carteImage">
-                <img src="images/responsive.png" alt="Responsive Design" data-aos="fade-right" data-aos-duration="1500">
+                <a href="presentation.php"><img src="images/presentation.png" alt="Présentation" data-aos="fade-right" data-aos-duration="1500"></a>
             </div>
             <div class="carteTexte">
-                <h3>Responsive Web Design</h3>
-                <p>Pour des sites qui s'adaptent à toutes les tailles d'écrans : smartphone, tablette, pc, télé, etc...</p>
+                <h3>Présentation</h3>
+                <p>Qui je suis, d'où je viens, comment j'apprends le développement web, etc...</p>
             </div>
         </div>
         <div class="carteHeader">
             <div class="carteImage">
-                <img src="images/manette.png" alt="Manette" data-aos="fade-up" data-aos-duration="1500">
+                <a href="projets.php"><img src="images/joystick.png" alt="Joystick" data-aos="fade-up" data-aos-duration="1500"></a>
             </div>
             <div class="carteTexte">
-                <h3>Jeux Vidéo</h3>
-                <p>Des petits jeux créés avec JavaScript et autres...</p>
+                <h3>Projets</h3>
+                <p>Des jeux et des applications créés avec JavaScript.</p>
             </div>
         </div>
         <div class="carteHeader">
             <div class="carteImage">
-                <img src="images/journal.png" alt="Journal" data-aos="fade-left" data-aos-duration="1500">
+                <a href="contact.php"><img src="images/contact.png" alt="Mail" data-aos="fade-left" data-aos-duration="1500"></a>
             </div>
             <div class="carteTexte">
-                <h3>Blog</h3>
-                <p>Pour parler d'un peu de tout : cinéma, musique, technologies, jeux vidéo, etc...</p>
+                <h3>Contact</h3>
+                <p>Pour m'envoyer un message par formulaire ou par les réseaux sociaux.</p>
             </div>
         </div>
     

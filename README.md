@@ -29,54 +29,56 @@ Quatre pages :
 * [FreePng.fr](https://www.freepng.fr/) pour les PNG.
 * [ResizeImage.net](https://resizeimage.net/) pour redimensionner les images.
 * [AnimateOnScroll](https://michalsnik.github.io/aos/) pour les animations.
-* [Csshake](https://elrumordelaluz.github.io/csshake/) pour l'animation des boutons.
 
-# Journal
+# Journal (2020)
 
-* **12 Avril 2020**
+* **12 Avril**
     * Initialisation du projet.
 
-* **13 Avril 2020**
+* **13 Avril**
     * Ajout du menu de navigation.
     * Création du Header.
     * Mise en place des sections Présentation, Projets et Contact.
     * Refonte du Header et de la section Présentation.
     * Création de la section Projets.
 
-* **14 Avril 2020**
+* **14 Avril**
     * Refonte totale du projet, pour un design un poil plus moderne.
     * Remplissage de la section Présentation.
     * Préparation de la section Projets.
     * Remplissage de la section Projets.
     * Ajout des réseaux sociaux dans le menu.
 
-* **15 Avril 2020**
+* **15 Avril**
     * Refonte de la section Présentation.
     * Remplissage section Projets.
     * Préparation du design de la section Projets.
     * Essai de couleurs dans la section Projets.
     * Changement du comportement du bouton "hamburger".
 
-* **16 Avril 2020**
+* **16 Avril**
     * Refonte section Présentation.
 
-* **20 Avril 2020**
+* **20 Avril**
     * Refonte section Présentation et Projets.
     * Ajout d'animations avec AnimateOnScroll.
 
-* **21 Avril 2020**
+* **21 Avril**
     * Ajout d'icônes pour navigateurs web et mobiles.
     * Ajout d'un Footer.
     * Petites modifs sur le design général.
 
-* **22 Avril 2020**
+* **22 Avril**
     * Changement de logo.
     * Refonte du site, passage en PHP.
     * Ajout de contenu dans la section Accueil.
 
-* **23 Avril 2020**
+* **23 Avril**
     * Initialisation de la section Contact.
     * Premier essai formulaire.
+
+* **24 Avril**
+    * Refonte sections Accueil et Contact.
 
 # Le résultat
 
