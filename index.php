@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
 <?php include("head.php"); ?>
+<?php 
+$monFichier = fopen('compteur.txt', 'r+');
+
+$pages_vues = fgets($monFichier);
+$pages_vues += 1;
+fseek($monFichier, 0);
+fputs($monFichier, $pages_vues);
+
+fclose($monFichier);
+?>
 
 <body>
 

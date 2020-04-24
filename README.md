@@ -79,6 +79,7 @@ Quatre pages :
 
 * **24 Avril**
     * Refonte sections Accueil et Contact.
+    * Essai compteur de vues.
 
 # Le résultat
 
