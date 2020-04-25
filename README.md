@@ -81,6 +81,9 @@ Quatre pages :
     * Refonte sections Accueil et Contact.
     * Essai compteur de vues.
 
+* **25 Avril**
+    * Mise en place du nouveau jeu "HasardCombat".
+
 # Le résultat
 
 La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr).

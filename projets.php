@@ -134,10 +134,10 @@
             <div class="projet" data-aos="zoom-in" data-aos-duration="1500">
                 <img class="punaise" src="images/punaise.png">
                 <div class="projet1">
-                    <a href="http://yannickbiheul.fr/jeu.html" target="_blank"><img src="images/trump2.png" alt="Trump"></a>
+                    <a href="http://yannickbiheul.fr/combat.html" target="_blank"><img src="images/trump2.png" alt="Trump"></a>
                 </div>
                 <div class="projet2">
-                    <a href="http://yannickbiheul.fr/jeu.html" target="_blank"><h3>Battez le débile</h3></a>
+                    <a href="http://yannickbiheul.fr/combat.html" target="_blank"><h3>HasardCombat</h3></a>
                 </div>
             </div>
                                                                         <!-- PROJET 2 -->
