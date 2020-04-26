@@ -596,7 +596,169 @@ footer p {
 
 /* CONTACT */
 
+#contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("../images/bubulles8.jpg");
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
 
+.container-contact {
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.titre-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    height: 60px;
+}
+
+.titre-contact h2 {
+    color: var(--jaune2);
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid #fff; */
+    padding: 10px;
+}
+
+.formulaire1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000;
+    outline: none;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000;
+    outline: none;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.submit {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: var(--jaune2);
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#reseaux {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 80%);
+    overflow: hidden;
+}
+
+.contact2-titre h3 {
+    color: var(--jaune2);
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+.contact2-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact2-logos img {
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#jeux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 80%);
+    overflow: hidden;
+}
+
+.jeux-titre>h3 {
+    color: var(--jaune2);
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.jeux-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jeu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.jeu>img {
+    width: 100px;
+    margin-right: 100px;
+}
+
+.jeu>h3 {
+    color: #fff;
+}
 
 
 
@@ -760,10 +922,10 @@ footer p {
     }
 
     .container-contact {
-        margin-top: 10px;
+        padding: 0;
+        margin-top: 0;
     }
-
     .formulaire {
-        width: 90%;
+        width: 250px;
     }
 }

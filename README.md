@@ -86,6 +86,7 @@ Quatre pages :
 
 * **26 Avril**
     * Refonte section Projets.
+    * Ajout ID jeux vidéo dans Contact.
 
 # Le résultat
 
