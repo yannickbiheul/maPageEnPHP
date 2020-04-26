@@ -10,14 +10,22 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+.presentation h2 {
+    font-family: 'Bangers', sans-serif;
+    color: var(--jaune2);
+}
+.presentation img {
+    width: 30%;
 }
 </style>
 <?php include("menu.php"); ?>
     <section id="presentation">
-        
+        <h2>Chantier en cours</h2>
+        <img src="images/travaux.png">
 
 
     </section>
