@@ -1,18 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <?php include("head.php"); ?>
-<?php 
-$monFichier = fopen('compteur.txt', 'r+');
-
-$pages_vues = fgets($monFichier);
-$pages_vues += 1;
-fseek($monFichier, 0);
-fputs($monFichier, $pages_vues);
-
-fclose($monFichier);
-?>
 
 <body>
+
+                                                            <!-- PREMIERE PARTIE -->
 
     <header id="header">
 
@@ -40,10 +32,12 @@ fclose($monFichier);
         </div>
 
         <div class="header3">
-            <p>Cette page a été vue <?php echo $pages_vues; ?> fois.</p>
+            
         </div>
         
     </header>
+
+                                                            <!-- DEUXIEME PARTIE -->
 
     <section class="headerDeux">
     
@@ -79,15 +73,6 @@ fclose($monFichier);
 
 
     <?php include("footer.php"); ?>
-
-
-    <!-- ANIMATE ON SCOLL -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
-    <!-- MON SCRIPT -->
-    <script src="script.js"></script>
 
 </body>
 </html>

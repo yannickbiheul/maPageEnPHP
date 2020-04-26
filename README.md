@@ -84,6 +84,9 @@ Quatre pages :
 * **25 Avril**
     * Mise en place du nouveau jeu "HasardCombat".
 
+* **26 Avril**
+    * Refonte section Projets.
+
 # Le résultat
 
 La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr).
