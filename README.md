@@ -88,6 +88,9 @@ Quatre pages :
     * Refonte section Projets.
     * Ajout ID jeux vidéo dans Contact.
 
+* **27 Avril**
+    * Changement taille logos jeux vidéo.
+
 # Le résultat
 
 La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr).

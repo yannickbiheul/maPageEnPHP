@@ -61,15 +61,15 @@
         <div class="jeux-logos">
             <div data-aos="fade-left" data-aos-duration="2000" class="jeu">
                 <img src="images/steam.png" alt="Steam">
-                <h3>Steam : Le Bok</h3>
+                <h3>Steam :<br> Le Bok</h3>
             </div>
             <div data-aos="fade-left" data-aos-duration="1500" class="jeu">
                 <img src="images/playstation.png" alt="Playstation">
-                <h3>Playstation : Le_Bok_29</h3>
+                <h3>Playstation :<br> Le_Bok_29</h3>
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" class="jeu">
                 <img src="images/xbox.png" alt="Xbox">
-                <h3>Xbox : M'en rappelle plus.</h3>
+                <h3>Xbox :<br> Le Bok 29</h3>
             </div>
         </div>
     

@@ -719,12 +719,15 @@ textarea {
     margin-bottom: 20px;
 }
 
+
+
 #jeux {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    width: 100%;
     background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 80%);
     overflow: hidden;
 }
@@ -741,18 +744,22 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .jeu {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    /* border: 1px solid #fff; */
+    width: 80%;
+    text-align: center;
 }
 
 .jeu>img {
-    width: 100px;
+    width: 50px;
     margin-right: 100px;
 }
 
