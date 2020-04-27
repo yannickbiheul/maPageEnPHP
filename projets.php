@@ -33,7 +33,7 @@
                 </div>
                 <div class="carte-titre">
                     <h2>QuizBok</h2>
-                    <a href="combat.html" target="_blank">Jouer</a>
+                    <a href="quiz.html" target="_blank">Jouer</a>
                 </div>
             </div>
             <div class="carte-projet">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="carte-titre">
                     <h2>DESKAD</h2>
-                    <a href="combat.html" target="_blank">Voir</a>
+                    <a href="#">Voir</a>
                 </div>
             </div>
         </div>
