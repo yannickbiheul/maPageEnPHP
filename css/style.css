@@ -454,10 +454,10 @@ header {
 /* PRESENTATION */
 
 #presentation {
-    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("../images/mur-fougeres.jpg");
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("../images/bubulles17.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -466,25 +466,61 @@ header {
 }
 
 .container-presentation {
-    width:100%;
-    height: 85%;
-    /* border: 1px solid #fff; */
+    width: 90%;
+    height: 84%;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carte-presentation {
+    width: 100%;
+    height: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.carte-presentation2 {
+    width: 100%;
+    height: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.presentation-titre {
+    width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Bangers', sans-serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: var(--jaune2);
+    text-align: center;
 }
 
-#presentation h2 {
-    font-family: 'Bangers', sans-serif;
-    color: var(--jaune2);
-    font-size: 2.4em;
-    letter-spacing: 2px;
-    text-shadow: 4px 4px 4px #000;
-}
-#presentation img {
-    width: 250px;
-    margin-bottom: 20px;
+.presentation-texte {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
 }
 
 
@@ -934,22 +970,20 @@ textarea {
     #presentation {
         padding-top: 40px;
         padding-bottom: 40px;
+        justify-content: space-between;
     }
 
-    .container-presentation {
-        justify-content: flex-start;
-    }
-
-    .presentation1 {
+    .carte-presentation {
         flex-direction: column;
     }
 
-    .presentation-texte {
-        width: 75%;
+    .presentation-titre {
+        font-size: 2em;
+        width: 95%;
     }
 
-    .texte-titre {
-        font-size: 1em;
+    .presentation-texte {
+        width: 95%;
     }
 
     .punaise {
