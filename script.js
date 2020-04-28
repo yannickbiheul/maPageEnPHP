@@ -9,6 +9,7 @@ let span3 = document.querySelector(".span3");
 
 bouton.addEventListener("click", function() {
     menu.classList.toggle("menu-open");
+    bouton.style.top = "8px";
     span1.classList.toggle("turn1");
     span2.classList.toggle("suppr");
     span3.classList.toggle("turn2");

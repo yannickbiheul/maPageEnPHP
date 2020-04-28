@@ -39,6 +39,8 @@ fclose($monFichier);
         <a href="contact.php">Contact</a>
     </div>
     <div class="menu3">
-        <p>Cette page a été vue <?php echo $pages_vues; ?> fois.</p>
+        <p>Le site sur gitHub :<p>
+        <a href="https://github.com/yannickbiheul/maPageEnPHP" target="_blank">ICI</a>
+        <p class="compteur">Cette page a été vue <?php echo $pages_vues; ?> fois.</p>
     </div>
 </div>

@@ -5,9 +5,11 @@
 
 <?php include("menu.php"); ?>
     <section id="presentation">
-        <h2>Chantier en cours</h2>
-        <img src="images/travaux.png">
-
+    
+        <div class="container-presentation">
+            <h2>Chantier en cours</h2>
+            <img src="images/travaux.png">
+        </div>
 
     </section>
     <?php include("footer.php"); ?>
