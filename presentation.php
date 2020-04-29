@@ -7,7 +7,9 @@
     <section id="presentation">
     
         <div class="container-presentation">
-            <div class="carte-presentation">
+            <div class="carte-presentation" data-aos="fade-right"
+                 data-aos-offset="300"
+                 data-aos-easing="ease-in-sine">
                 <div class="presentation-titre">
                     <h2>Qui suis-je</h2>
                 </div>
@@ -17,7 +19,9 @@
                     <p>Je suis intéressé par les nouvelles technologies, les jeux vidéo, le cinéma, la lecture et la musique.</p>
                 </div>
             </div>
-            <div class="carte-presentation2">
+            <div class="carte-presentation2" data-aos="fade-left"
+                 data-aos-offset="300"
+                 data-aos-easing="ease-in-sine">
             <div class="presentation-titre">
                     <h2>Reconversion</h2>
                 </div>
