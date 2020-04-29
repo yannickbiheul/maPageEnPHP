@@ -463,39 +463,44 @@ header {
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .container-presentation {
     width: 90%;
     height: 84%;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .carte-presentation {
     width: 100%;
     height: 50%;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .carte-presentation2 {
     width: 100%;
     height: 50%;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .presentation-titre {
@@ -510,6 +515,7 @@ header {
     letter-spacing: 2px;
     color: var(--jaune2);
     text-align: center;
+    text-shadow: 4px 4px 4px #000;
 }
 
 .presentation-texte {
@@ -521,6 +527,12 @@ header {
     align-items: center;
     color: #fff;
     text-align: center;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.carte-presentation a {
+    text-decoration: none;
+    color: var(--jaune1);
 }
 
 
@@ -974,6 +986,10 @@ textarea {
     }
 
     .carte-presentation {
+        flex-direction: column;
+    }
+
+    .carte-presentation2 {
         flex-direction: column;
     }
 

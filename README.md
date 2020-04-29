@@ -94,6 +94,9 @@ Quatre pages :
 * **28 Avril**
     * Refonte bouton menu, menu de navigation et section Présentation.
 
+* **29 Avril**
+    * Remplissage section Présentation.
+
 # Le résultat
 
 La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr).
